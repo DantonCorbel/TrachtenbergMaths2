@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB0E04D22671C07E0033A74D /* LearnTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0E04D12671C07E0033A74D /* LearnTableViewController.swift */; };
+		BB0E04D42671C1140033A74D /* ContentWithLockedUnlockedDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0E04D32671C1140033A74D /* ContentWithLockedUnlockedDataSet.swift */; };
+		BB0E04D62672027F0033A74D /* LearnTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0E04D52672027F0033A74D /* LearnTableViewCell.swift */; };
+		BB31272326742F0A006D698C /* BasicMultiplicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB31272226742F0A006D698C /* BasicMultiplicationViewController.swift */; };
+		BB3239F726AE3D42006FB282 /* TestPopOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3239F626AE3D42006FB282 /* TestPopOverViewController.swift */; };
+		BB359A74267349A300EA49A4 /* IntroData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB359A73267349A300EA49A4 /* IntroData.swift */; };
+		BB35B25626AC9B920064ACD0 /* TestTableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB35B25526AC9B920064ACD0 /* TestTableData.swift */; };
+		BB47D330266ED01D00EAF545 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB47D32F266ED01D00EAF545 /* AppDelegate.swift */; };
+		BB47D33A266ED01E00EAF545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB47D338266ED01E00EAF545 /* LaunchScreen.storyboard */; };
+		BB47D342266ED8CB00EAF545 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB47D341266ED8CB00EAF545 /* MainViewController.swift */; };
+		BB47D344266ED97D00EAF545 /* SystemFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB47D343266ED97D00EAF545 /* SystemFunction.swift */; };
+		BB47D346266ED9D200EAF545 /* ColourTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB47D345266ED9D200EAF545 /* ColourTemplate.swift */; };
+		BB47D34A266F22D200EAF545 /* AboutAndAcknowledgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB47D349266F22D200EAF545 /* AboutAndAcknowledgeViewController.swift */; };
+		BB47D34C266F22FD00EAF545 /* AboutAndAcknowledgeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB47D34B266F22FD00EAF545 /* AboutAndAcknowledgeData.swift */; };
+		BB4D769326B1B55A000A6568 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB4D769226B1B55A000A6568 /* Assets.xcassets */; };
+		BB5024BB26AF9EC3004FEDE3 /* TestHistoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5024BA26AF9EC3004FEDE3 /* TestHistoryData.swift */; };
+		BB5024BD26AFC467004FEDE3 /* TestHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5024BC26AFC467004FEDE3 /* TestHistoryTableViewCell.swift */; };
+		BB6E0A8C269D3D4800FF3F0C /* PracticeHistoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6E0A8B269D3D4800FF3F0C /* PracticeHistoryData.swift */; };
+		BB8004A126941AB800916763 /* IntroductionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8004A026941AB800916763 /* IntroductionTableViewController.swift */; };
+		BB82C98D2676B32F00725AFC /* BasicMultiplyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB82C98C2676B32F00725AFC /* BasicMultiplyData.swift */; };
+		BB8670342698DE2900E66910 /* PracticeChooseTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8670332698DE2900E66910 /* PracticeChooseTypesViewController.swift */; };
+		BB9141C426995A4600183856 /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9141C326995A4600183856 /* PracticeViewController.swift */; };
+		BB9E76C6267AE52A003CC7DA /* BasicMultiplyFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E76C5267AE52A003CC7DA /* BasicMultiplyFunctions.swift */; };
+		BBD0C07D26B1641C00D41996 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB47D333266ED01D00EAF545 /* Main.storyboard */; };
+		BBD7634A26A827A000AF6B93 /* PracticePopOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD7634926A827A000AF6B93 /* PracticePopOverViewController.swift */; };
+		BBD9048E2678264200EACDA4 /* BasicMultiplyTheoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD9048D2678264200EACDA4 /* BasicMultiplyTheoryData.swift */; };
+		BBD9049026782C9C00EACDA4 /* TheoryBasicMultiplyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD9048F26782C9C00EACDA4 /* TheoryBasicMultiplyViewController.swift */; };
+		BBD9049226782CBD00EACDA4 /* MethodBasicMultiplyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD9049126782CBD00EACDA4 /* MethodBasicMultiplyViewController.swift */; };
+		BBD90494267A0BC500EACDA4 /* InfoScreenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD90493267A0BC500EACDA4 /* InfoScreenTableViewController.swift */; };
+		BBE4365626AD59B000666F04 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE4365526AD59B000666F04 /* TestViewController.swift */; };
+		BBE5588726AB4D7E00D660AB /* TestChoicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE5588626AB4D7E00D660AB /* TestChoicesViewController.swift */; };
+		BBE5588926AB4DA100D660AB /* TestQuestionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE5588826AB4DA100D660AB /* TestQuestionsTableViewController.swift */; };
+		BBE5588B26AB4DB400D660AB /* TestHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE5588A26AB4DB400D660AB /* TestHistoryTableViewController.swift */; };
+		BBE5588D26AC130500D660AB /* TestQuestionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE5588C26AC130500D660AB /* TestQuestionsTableViewCell.swift */; };
+		BBF0A51D26A03D1D00F5E390 /* PracticeHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF0A51C26A03D1D00F5E390 /* PracticeHistoryTableViewCell.swift */; };
+		BBF0A51F26A040B200F5E390 /* PracticeHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF0A51E26A040B200F5E390 /* PracticeHistoryTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB0E04D12671C07E0033A74D /* LearnTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnTableViewController.swift; sourceTree = "<group>"; };
+		BB0E04D32671C1140033A74D /* ContentWithLockedUnlockedDataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentWithLockedUnlockedDataSet.swift; sourceTree = "<group>"; };
+		BB0E04D52672027F0033A74D /* LearnTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnTableViewCell.swift; sourceTree = "<group>"; };
+		BB31272226742F0A006D698C /* BasicMultiplicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMultiplicationViewController.swift; sourceTree = "<group>"; };
+		BB3239F626AE3D42006FB282 /* TestPopOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPopOverViewController.swift; sourceTree = "<group>"; };
+		BB359A73267349A300EA49A4 /* IntroData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroData.swift; sourceTree = "<group>"; };
+		BB35B25526AC9B920064ACD0 /* TestTableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableData.swift; sourceTree = "<group>"; };
+		BB47D32C266ED01D00EAF545 /* Trach Maths.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trach Maths.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB47D32F266ED01D00EAF545 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB47D334266ED01D00EAF545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB47D339266ED01E00EAF545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB47D33B266ED01E00EAF545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB47D341266ED8CB00EAF545 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BB47D343266ED97D00EAF545 /* SystemFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemFunction.swift; sourceTree = "<group>"; };
+		BB47D345266ED9D200EAF545 /* ColourTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourTemplate.swift; sourceTree = "<group>"; };
+		BB47D349266F22D200EAF545 /* AboutAndAcknowledgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAndAcknowledgeViewController.swift; sourceTree = "<group>"; };
+		BB47D34B266F22FD00EAF545 /* AboutAndAcknowledgeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAndAcknowledgeData.swift; sourceTree = "<group>"; };
+		BB4D769226B1B55A000A6568 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB5024BA26AF9EC3004FEDE3 /* TestHistoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHistoryData.swift; sourceTree = "<group>"; };
+		BB5024BC26AFC467004FEDE3 /* TestHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		BB6E0A8B269D3D4800FF3F0C /* PracticeHistoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeHistoryData.swift; sourceTree = "<group>"; };
+		BB8004A026941AB800916763 /* IntroductionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionTableViewController.swift; sourceTree = "<group>"; };
+		BB82C98C2676B32F00725AFC /* BasicMultiplyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMultiplyData.swift; sourceTree = "<group>"; };
+		BB8670332698DE2900E66910 /* PracticeChooseTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeChooseTypesViewController.swift; sourceTree = "<group>"; };
+		BB9141C326995A4600183856 /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
+		BB9E76C5267AE52A003CC7DA /* BasicMultiplyFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMultiplyFunctions.swift; sourceTree = "<group>"; };
+		BBD7634926A827A000AF6B93 /* PracticePopOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticePopOverViewController.swift; sourceTree = "<group>"; };
+		BBD9048D2678264200EACDA4 /* BasicMultiplyTheoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMultiplyTheoryData.swift; sourceTree = "<group>"; };
+		BBD9048F26782C9C00EACDA4 /* TheoryBasicMultiplyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheoryBasicMultiplyViewController.swift; sourceTree = "<group>"; };
+		BBD9049126782CBD00EACDA4 /* MethodBasicMultiplyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodBasicMultiplyViewController.swift; sourceTree = "<group>"; };
+		BBD90493267A0BC500EACDA4 /* InfoScreenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoScreenTableViewController.swift; sourceTree = "<group>"; };
+		BBE4365526AD59B000666F04 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		BBE5588626AB4D7E00D660AB /* TestChoicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestChoicesViewController.swift; sourceTree = "<group>"; };
+		BBE5588826AB4DA100D660AB /* TestQuestionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestQuestionsTableViewController.swift; sourceTree = "<group>"; };
+		BBE5588A26AB4DB400D660AB /* TestHistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHistoryTableViewController.swift; sourceTree = "<group>"; };
+		BBE5588C26AC130500D660AB /* TestQuestionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestQuestionsTableViewCell.swift; sourceTree = "<group>"; };
+		BBF0A51C26A03D1D00F5E390 /* PracticeHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		BBF0A51E26A040B200F5E390 /* PracticeHistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeHistoryTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB47D329266ED01D00EAF545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB47D323266ED01D00EAF545 = {
+			isa = PBXGroup;
+			children = (
+				BB47D32E266ED01D00EAF545 /* Trach Maths */,
+				BB47D32D266ED01D00EAF545 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB47D32D266ED01D00EAF545 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB47D32C266ED01D00EAF545 /* Trach Maths.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB47D32E266ED01D00EAF545 /* Trach Maths */ = {
+			isa = PBXGroup;
+			children = (
+				BB47D32F266ED01D00EAF545 /* AppDelegate.swift */,
+				BB6FF82026C11952002BDFF3 /* App-wide */,
+				BB47D333266ED01D00EAF545 /* Main.storyboard */,
+				BB6FF82126C119B4002BDFF3 /* Data */,
+				BB6FF81F26C118C9002BDFF3 /* View Controllers */,
+				BB6FF82226C119F6002BDFF3 /* TableViewCell */,
+				BB4D769226B1B55A000A6568 /* Assets.xcassets */,
+				BB47D338266ED01E00EAF545 /* LaunchScreen.storyboard */,
+				BB47D33B266ED01E00EAF545 /* Info.plist */,
+			);
+			path = "Trach Maths";
+			sourceTree = "<group>";
+		};
+		BB6FF81F26C118C9002BDFF3 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BB47D341266ED8CB00EAF545 /* MainViewController.swift */,
+				BB0E04D12671C07E0033A74D /* LearnTableViewController.swift */,
+				BB47D349266F22D200EAF545 /* AboutAndAcknowledgeViewController.swift */,
+				BB8004A026941AB800916763 /* IntroductionTableViewController.swift */,
+				BB31272226742F0A006D698C /* BasicMultiplicationViewController.swift */,
+				BBD90493267A0BC500EACDA4 /* InfoScreenTableViewController.swift */,
+				BBD9048F26782C9C00EACDA4 /* TheoryBasicMultiplyViewController.swift */,
+				BBD9049126782CBD00EACDA4 /* MethodBasicMultiplyViewController.swift */,
+				BB8670332698DE2900E66910 /* PracticeChooseTypesViewController.swift */,
+				BB9141C326995A4600183856 /* PracticeViewController.swift */,
+				BBD7634926A827A000AF6B93 /* PracticePopOverViewController.swift */,
+				BBF0A51E26A040B200F5E390 /* PracticeHistoryTableViewController.swift */,
+				BBE5588626AB4D7E00D660AB /* TestChoicesViewController.swift */,
+				BBE4365526AD59B000666F04 /* TestViewController.swift */,
+				BB3239F626AE3D42006FB282 /* TestPopOverViewController.swift */,
+				BBE5588826AB4DA100D660AB /* TestQuestionsTableViewController.swift */,
+				BBE5588A26AB4DB400D660AB /* TestHistoryTableViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		BB6FF82026C11952002BDFF3 /* App-wide */ = {
+			isa = PBXGroup;
+			children = (
+				BB47D343266ED97D00EAF545 /* SystemFunction.swift */,
+				BB47D345266ED9D200EAF545 /* ColourTemplate.swift */,
+			);
+			path = "App-wide";
+			sourceTree = "<group>";
+		};
+		BB6FF82126C119B4002BDFF3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BB0E04D32671C1140033A74D /* ContentWithLockedUnlockedDataSet.swift */,
+				BB47D34B266F22FD00EAF545 /* AboutAndAcknowledgeData.swift */,
+				BB359A73267349A300EA49A4 /* IntroData.swift */,
+				BB82C98C2676B32F00725AFC /* BasicMultiplyData.swift */,
+				BB9E76C5267AE52A003CC7DA /* BasicMultiplyFunctions.swift */,
+				BBD9048D2678264200EACDA4 /* BasicMultiplyTheoryData.swift */,
+				BB6E0A8B269D3D4800FF3F0C /* PracticeHistoryData.swift */,
+				BB35B25526AC9B920064ACD0 /* TestTableData.swift */,
+				BB5024BA26AF9EC3004FEDE3 /* TestHistoryData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		BB6FF82226C119F6002BDFF3 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				BB0E04D52672027F0033A74D /* LearnTableViewCell.swift */,
+				BBF0A51C26A03D1D00F5E390 /* PracticeHistoryTableViewCell.swift */,
+				BBE5588C26AC130500D660AB /* TestQuestionsTableViewCell.swift */,
+				BB5024BC26AFC467004FEDE3 /* TestHistoryTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB47D32B266ED01D00EAF545 /* Trach Maths */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB47D33E266ED01E00EAF545 /* Build configuration list for PBXNativeTarget "Trach Maths" */;
+			buildPhases = (
+				BB47D328266ED01D00EAF545 /* Sources */,
+				BB47D329266ED01D00EAF545 /* Frameworks */,
+				BB47D32A266ED01D00EAF545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trach Maths";
+			productName = "Trach Maths";
+			productReference = BB47D32C266ED01D00EAF545 /* Trach Maths.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB47D324266ED01D00EAF545 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = "Deb Santa Clara";
+				TargetAttributes = {
+					BB47D32B266ED01D00EAF545 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = BB47D327266ED01D00EAF545 /* Build configuration list for PBXProject "Trach Maths" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB47D323266ED01D00EAF545;
+			productRefGroup = BB47D32D266ED01D00EAF545 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB47D32B266ED01D00EAF545 /* Trach Maths */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB47D32A266ED01D00EAF545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBD0C07D26B1641C00D41996 /* Main.storyboard in Resources */,
+				BB4D769326B1B55A000A6568 /* Assets.xcassets in Resources */,
+				BB47D33A266ED01E00EAF545 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB47D328266ED01D00EAF545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB47D342266ED8CB00EAF545 /* MainViewController.swift in Sources */,
+				BB6E0A8C269D3D4800FF3F0C /* PracticeHistoryData.swift in Sources */,
+				BB47D34A266F22D200EAF545 /* AboutAndAcknowledgeViewController.swift in Sources */,
+				BB8670342698DE2900E66910 /* PracticeChooseTypesViewController.swift in Sources */,
+				BB5024BD26AFC467004FEDE3 /* TestHistoryTableViewCell.swift in Sources */,
+				BB3239F726AE3D42006FB282 /* TestPopOverViewController.swift in Sources */,
+				BBE5588B26AB4DB400D660AB /* TestHistoryTableViewController.swift in Sources */,
+				BB9141C426995A4600183856 /* PracticeViewController.swift in Sources */,
+				BB0E04D22671C07E0033A74D /* LearnTableViewController.swift in Sources */,
+				BBD9049226782CBD00EACDA4 /* MethodBasicMultiplyViewController.swift in Sources */,
+				BB0E04D62672027F0033A74D /* LearnTableViewCell.swift in Sources */,
+				BB359A74267349A300EA49A4 /* IntroData.swift in Sources */,
+				BB35B25626AC9B920064ACD0 /* TestTableData.swift in Sources */,
+				BB47D344266ED97D00EAF545 /* SystemFunction.swift in Sources */,
+				BB0E04D42671C1140033A74D /* ContentWithLockedUnlockedDataSet.swift in Sources */,
+				BBD90494267A0BC500EACDA4 /* InfoScreenTableViewController.swift in Sources */,
+				BBD7634A26A827A000AF6B93 /* PracticePopOverViewController.swift in Sources */,
+				BB47D330266ED01D00EAF545 /* AppDelegate.swift in Sources */,
+				BB8004A126941AB800916763 /* IntroductionTableViewController.swift in Sources */,
+				BB31272326742F0A006D698C /* BasicMultiplicationViewController.swift in Sources */,
+				BBF0A51F26A040B200F5E390 /* PracticeHistoryTableViewController.swift in Sources */,
+				BB82C98D2676B32F00725AFC /* BasicMultiplyData.swift in Sources */,
+				BBF0A51D26A03D1D00F5E390 /* PracticeHistoryTableViewCell.swift in Sources */,
+				BB9E76C6267AE52A003CC7DA /* BasicMultiplyFunctions.swift in Sources */,
+				BBD9048E2678264200EACDA4 /* BasicMultiplyTheoryData.swift in Sources */,
+				BBE4365626AD59B000666F04 /* TestViewController.swift in Sources */,
+				BB47D346266ED9D200EAF545 /* ColourTemplate.swift in Sources */,
+				BB5024BB26AF9EC3004FEDE3 /* TestHistoryData.swift in Sources */,
+				BB47D34C266F22FD00EAF545 /* AboutAndAcknowledgeData.swift in Sources */,
+				BBE5588926AB4DA100D660AB /* TestQuestionsTableViewController.swift in Sources */,
+				BBE5588726AB4D7E00D660AB /* TestChoicesViewController.swift in Sources */,
+				BBD9049026782C9C00EACDA4 /* TheoryBasicMultiplyViewController.swift in Sources */,
+				BBE5588D26AC130500D660AB /* TestQuestionsTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB47D333266ED01D00EAF545 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB47D334266ED01D00EAF545 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB47D338266ED01E00EAF545 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB47D339266ED01E00EAF545 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB47D33C266ED01E00EAF545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB47D33D266ED01E00EAF545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB47D33F266ED01E00EAF545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Trach Maths/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Trach-Maths";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB47D340266ED01E00EAF545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Trach Maths/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Trach-Maths";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB47D327266ED01D00EAF545 /* Build configuration list for PBXProject "Trach Maths" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB47D33C266ED01E00EAF545 /* Debug */,
+				BB47D33D266ED01E00EAF545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB47D33E266ED01E00EAF545 /* Build configuration list for PBXNativeTarget "Trach Maths" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB47D33F266ED01E00EAF545 /* Debug */,
+				BB47D340266ED01E00EAF545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB47D324266ED01D00EAF545 /* Project object */;
+}
