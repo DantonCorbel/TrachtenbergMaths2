@@ -52,9 +52,9 @@ struct Chapters: Codable {
                         LockedUnlocked(chapterTitle: "How to use the app", unlockedCell: true, isComplete: false),
                         LockedUnlocked(chapterTitle: "Concepts", unlockedCell: true, isComplete: false) ]),
             Chapters(sectionHeader: "Basic Multiplication", chapterTitle: [
-                        LockedUnlocked(chapterTitle: "By 11", unlockedCell: true, isComplete: true),
-                        LockedUnlocked(chapterTitle: "By 12", unlockedCell: true, isComplete: true),
-                        LockedUnlocked(chapterTitle: "By 5", unlockedCell: true, isComplete: true),
+                        LockedUnlocked(chapterTitle: "By 11", unlockedCell: false, isComplete: false),
+                        LockedUnlocked(chapterTitle: "By 12", unlockedCell: false, isComplete: false),
+                        LockedUnlocked(chapterTitle: "By 5", unlockedCell: false, isComplete: false),
                         LockedUnlocked(chapterTitle: "By 6", unlockedCell: false, isComplete: false),
                         LockedUnlocked(chapterTitle: "By 7", unlockedCell: false, isComplete: false),
                         LockedUnlocked(chapterTitle: "By 9", unlockedCell: false, isComplete: false),

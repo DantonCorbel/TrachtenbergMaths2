@@ -49,6 +49,7 @@ class AboutAndAcknowledgeViewController: UIViewController, UITextViewDelegate {
     func setupLabels() {
         titleLabel.font = UIFont(name: "Futura", size: Helper.setCustomFont(originalFont: 25))
         titleLabel.textColor = theme.orangeColor
+        
         infoLabel.font = UIFont(name: "Futura", size: Helper.setCustomFont(originalFont: 17))
         infoLabel.textColor = theme.textColour
         infoLabel.textAlignment = .justified
