@@ -21,7 +21,7 @@ class LearnTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        ThemeManager.applyTheme(theme: theme)
+        //ThemeManager.applyTheme(theme: theme)
         
         if let savedChapters = Chapters.loadFromFile() {
             tableData = savedChapters
@@ -100,7 +100,7 @@ class LearnTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Learn Table Cell", for: indexPath) as! LearnTableViewCell
         //cell.textLabel?.text = tableData[indexPath.row]
         // Configure the cell...
-        cell.backgroundColor = theme.backgroundColor
+        //cell.backgroundColor = theme.backgroundColor
         let cellData = tableData[indexPath.section].chapterTitle[indexPath.row].chapterTitle
         let lockUnlock = tableData[indexPath.section].chapterTitle[indexPath.row].unlockedCell
         let isComplete = tableData[indexPath.section].chapterTitle[indexPath.row].isComplete

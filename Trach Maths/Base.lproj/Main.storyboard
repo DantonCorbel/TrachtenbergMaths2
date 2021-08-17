@@ -1854,7 +1854,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="UnD-44-XMV">
-                                <rect key="frame" x="0.0" y="537" width="320" height="32"/>
+                                <rect key="frame" x="20" y="537" width="280" height="32"/>
                                 <segments>
                                     <segment title="The Method"/>
                                     <segment title="The Theory"/>
@@ -1891,11 +1891,11 @@
                         <viewLayoutGuide key="safeArea" id="xm9-Wy-ot7"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="xm9-Wy-ot7" firstAttribute="trailing" secondItem="UnD-44-XMV" secondAttribute="trailing" id="1dn-wY-wwX"/>
+                            <constraint firstItem="xm9-Wy-ot7" firstAttribute="trailing" secondItem="UnD-44-XMV" secondAttribute="trailing" constant="20" id="1dn-wY-wwX"/>
                             <constraint firstItem="JVY-KQ-0e7" firstAttribute="top" secondItem="pmw-lK-4Or" secondAttribute="bottom" constant="5" id="GVQ-0s-7DK"/>
                             <constraint firstItem="UnD-44-XMV" firstAttribute="top" secondItem="oyG-05-Vrq" secondAttribute="bottom" constant="20" id="Hg4-gI-O5p"/>
                             <constraint firstItem="xm9-Wy-ot7" firstAttribute="trailing" secondItem="oyG-05-Vrq" secondAttribute="trailing" constant="20" id="Jj8-IE-DHz"/>
-                            <constraint firstItem="UnD-44-XMV" firstAttribute="leading" secondItem="xm9-Wy-ot7" secondAttribute="leading" id="RMB-Km-914"/>
+                            <constraint firstItem="UnD-44-XMV" firstAttribute="leading" secondItem="xm9-Wy-ot7" secondAttribute="leading" constant="20" id="RMB-Km-914"/>
                             <constraint firstItem="UnD-44-XMV" firstAttribute="top" secondItem="qhf-Jc-rXv" secondAttribute="bottom" constant="20" id="RbH-Gu-AEx"/>
                             <constraint firstItem="xm9-Wy-ot7" firstAttribute="trailing" secondItem="JVY-KQ-0e7" secondAttribute="trailing" constant="20" id="SUb-n4-Ohe"/>
                             <constraint firstItem="JVY-KQ-0e7" firstAttribute="leading" secondItem="xm9-Wy-ot7" secondAttribute="leading" constant="20" id="cem-nB-8km"/>
