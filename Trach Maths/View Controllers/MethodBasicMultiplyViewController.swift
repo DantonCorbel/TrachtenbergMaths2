@@ -272,12 +272,14 @@ class MethodBasicMultiplyViewController: UIViewController {
         
     }
     
+    // - TODO: set multiplicand labels and underline so that color ok in dark mode
     func setUpInnerLabels() {
         for i in (0..<innerStackLabelCollection.count) {
             
             innerStackLabelCollection[i].layer.borderWidth = 2.0
             innerStackLabelCollection[i].layer.cornerRadius = 8
             innerStackLabelCollection[i].layer.masksToBounds = true
+            //innerStackLabelCollection[i].textColor = theme.textColour
             
         }
         multiplicandUnitsLabel.textColor = theme.orangeColor

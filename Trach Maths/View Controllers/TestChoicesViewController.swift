@@ -119,7 +119,7 @@ class TestChoicesViewController: UIViewController, UIPickerViewDelegate, UIPicke
     
     func xLabelsSetUp() {
         for i in 0..<xLabelsCollection.count {
-            xLabelsCollection[i].textColor = theme.mainColor
+            xLabelsCollection[i].textColor = theme.textColour
             xLabelsCollection[i].font = UIFont(name: "Futura", size: Helper.setCustomFont(originalFont: 15))
         }
     }

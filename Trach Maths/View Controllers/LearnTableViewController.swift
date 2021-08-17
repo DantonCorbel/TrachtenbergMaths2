@@ -21,7 +21,7 @@ class LearnTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //ThemeManager.applyTheme(theme: theme)
+        ThemeManager.applyTheme(theme: theme)
         
         if let savedChapters = Chapters.loadFromFile() {
             tableData = savedChapters

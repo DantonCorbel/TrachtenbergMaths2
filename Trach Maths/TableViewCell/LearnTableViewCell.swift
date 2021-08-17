@@ -10,7 +10,7 @@ import UIKit
 
 class LearnTableViewCell: UITableViewCell {
     //MARK: - Variables and constants
-    //let theme = ThemeManager.currentTheme()
+    let theme = ThemeManager.currentTheme()
     var shouldDisableTouches: Bool = false
     
 //MARK: - Outlets
@@ -59,6 +59,7 @@ class LearnTableViewCell: UITableViewCell {
             // detailLabel.isUserInteractionEnabled = false
         }
         detailLabel.text = cellData
+        detailLabel.textColor = theme.textColour
     }
 }
 

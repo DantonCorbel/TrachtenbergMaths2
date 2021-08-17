@@ -63,6 +63,7 @@ class BasicMultiplicationViewController: UIViewController {
     func setUpTitleLabel() {
         titleLabel.text = "Multiply by \(multiplier.multiplierString)"
         titleLabel.font = UIFont(name: "Futura", size: Helper.setCustomFont(originalFont: 22))
+        titleLabel.textColor = theme.textColour
     }
     
     func setUpSubitleLabel() {
