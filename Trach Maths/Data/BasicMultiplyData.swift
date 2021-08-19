@@ -271,7 +271,7 @@ func getLabelText(multiplier: BasicMultiplicationMultiplier) {
         nineInstructions = [
             BasicMultiplyInstructionsStruct(heading: "First Step:", instruction: "Take 10, subtract the right-most digit (\(multiplicandUnits)), and use in right-most answer position.\n    ⟹ 10 - \(multiplicandUnits) = ?"),
             BasicMultiplyInstructionsStruct(heading: "Middle Steps:", instruction: "Take 9 minus digit (\(middleSteps2)), add the right-hand neighbour (\(middleSteps1)). Add anything carried over.\n    ⟹ (9 - \(middleSteps2)) + \(middleSteps1) + carried = ?"),
-            BasicMultiplyInstructionsStruct(heading: "Last Step:", instruction: "Take digit (\(multiplicandHundreds)) and subtract 1, add anything carried over.\n    ⟹ \((multiplicandHundreds) - 1) + carried = ?")
+            BasicMultiplyInstructionsStruct(heading: "Last Step:", instruction: "Take digit (\(multiplicandHundreds)) and subtract 1, add anything carried over.\n    ⟹ \((multiplicandHundreds)) - 1 + carried = ?")
         ]
     // MARK: - 8
     case .eight:
