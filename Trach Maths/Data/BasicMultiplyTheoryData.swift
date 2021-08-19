@@ -218,7 +218,7 @@ Knowing the Five rule and Six rule, we can now derive the Seven rule.
 If 7 = <span id="orange">5</span> + <span id="orange">2</span>
 Then 7 x 3 = (<span id="orange">5</span> x 3) + (<span id="orange">2</span> x 3)
 
-Now, instead of adding (1 x digit), we are adding (2 x digit). in other words, doubling the digit, then adding it to the Five rule.
+Now, instead of adding (1 x digit), we are adding (2 x digit). In other words, doubling the digit, then adding it to the Five rule.
 
     7 x 3 = (5 x 3) + (2 x 3)
           = 15 + 6
@@ -258,7 +258,7 @@ Go ahead and check these using the Seven rule: "Double the digit, if digit is od
 </html>
 """
 
-// MARK: Five
+// MARK: - Five
 //Five: Use \'half\' the neighbour, if odd add 5"
 let fiveTheory = """
 <html>

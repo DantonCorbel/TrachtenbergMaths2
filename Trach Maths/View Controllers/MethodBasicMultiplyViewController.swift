@@ -156,8 +156,9 @@ class MethodBasicMultiplyViewController: UIViewController {
                         let showAnswer = UIAlertAction(title: "Show answer", style: .default, handler: {action in
                             self.answerLabelCollection[i].text = wholeAnswerArray[i]
                             self.answerLabelCollection[i].textColor = self.theme.textColour
-                            self.setLabelText()
+                            
                             self.resetInnerLabelColours(i: i)
+                            self.setLabelText()
                             self.endofTask()
                             
                         })

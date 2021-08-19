@@ -325,13 +325,13 @@ func forSix(num1: Int, num2: Int, num3: Int) {
     switch num3 {
     case 0:
         if odd {
-            sixInstructions[0].instruction += "\n    ⟹ (num1) is odd\n    ⟹ \(num1) + 5 = ?"
+            sixInstructions[0].instruction += "\n    ⟹ \(num1) is odd\n    ⟹ \(num1) + 5 = ?"
         } else {
             sixInstructions[0].instruction += "\n    ⟹ \(num1) is even, there is nothing to add"
         }
     case 1:
         if odd {
-            sixInstructions[1].instruction += "\n    ⟹ \(num1) is odd\n   ⟹ 'half' of \(num2) is \(half)\n    ⟹ \(num1) + 5 + \(String(describing: half)) + carried = ?"
+            sixInstructions[1].instruction += "\n    ⟹ \(num1) is odd\n    ⟹ 'half' of \(num2) is \(half)\n    ⟹ \(num1) + 5 + \(String(describing: half)) + carried = ?"
         } else {
             sixInstructions[1].instruction += "\n    ⟹ \(num1) is even\n    ⟹ 'half' of \(num2) is \(half)\n    ⟹ \(num1) + \(String(describing: half)) + carried = ?"
         }
